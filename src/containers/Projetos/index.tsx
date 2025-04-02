@@ -1,4 +1,4 @@
-import Projeto from "../../components/Projeto";
+import  {ProjetoToDo, ProjetoLoja } from "../../components/Projeto";
 import Title from "../../components/Title";
 
 import{ Lista } from './styles'
@@ -8,41 +8,12 @@ const Projetos = ()=>(
     <Title fontSize={16}> Projetos</Title>
     <Lista>
       <li>
-        <Projeto/>
+        <ProjetoToDo/>
       </li>
       <li>
-        <Projeto/>
+        <ProjetoLoja/>
       </li>
-      <li>
-        <Projeto/>
-      </li>
-      <li>
-        <Projeto/>
-      </li>
-      <li>
-        <Projeto/>
-      </li>
-      <li>
-        <Projeto/>
-      </li>
-      <li>
-        <Projeto/>
-      </li>
-      <li>
-        <Projeto/>
-      </li>
-      <li>
-        <Projeto/>
-      </li>
-      <li>
-        <Projeto/>
-      </li>
-      <li>
-        <Projeto/>
-      </li>
-      <li>
-        <Projeto/>
-      </li>
+
     </Lista>
   </section>
 )

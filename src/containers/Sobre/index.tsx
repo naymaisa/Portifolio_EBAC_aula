@@ -6,7 +6,10 @@ const Sobre = ()=> (
   <section>
     <Title fontSize={16}>Sobre mim</Title>
     <Paragrafo tipo="principal">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, officia aspernatur fuga accusantium ullam ad corporis at voluptatibus quis blanditiis, exercitationem quod. Omnis nostrum suscipit illum dolorum facilis reprehenderit saepe.
+    Desenvolvedora Full Stack | Estudante de Java - EBAC
+    </Paragrafo>
+    <Paragrafo tipo="principal">
+    Sou desenvolvedora Full Stack em formação, com experiência em Java, JavaScript e frameworks como Vue.js, Node.js, React e Express. Inicialmente graduada em Ciências Biomédicas Laboratoriais, fiz um intercâmbio em Portugal, onde realizei pesquisa científica e cursos de TI. Após retornar ao Brasil, me apaixonei pela tecnologia e desde então me dedico ao desenvolvimento.
     </Paragrafo>
 
 
